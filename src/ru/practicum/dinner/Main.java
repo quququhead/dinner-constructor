@@ -12,6 +12,8 @@ public class Main {
         dc = new DinnerConstructor();
         scanner = new Scanner(System.in);
 
+        System.out.println("Вас приветствует приложение для генерации комбо-обедов!");
+
         while (true) {
             printMenu();
             String command = scanner.nextLine();
@@ -26,6 +28,7 @@ public class Main {
                     System.out.println();
                     break;
                 case "3":
+                    System.out.println("Работа программы заверешна!");
                     return;
                 default:
                     System.out.println("Вы ввели некорректное значние. Ваше значние: " + command);

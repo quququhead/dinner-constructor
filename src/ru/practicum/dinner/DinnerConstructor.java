@@ -29,7 +29,7 @@ public class DinnerConstructor {
         }
         dish.add(dishName);
         dishes.put(dishType, dish);
-        System.out.println(dishes);
+        System.out.println("Добавление прошло успешно!");
     }
 
     boolean checkType(String type) {
